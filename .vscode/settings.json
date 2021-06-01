@@ -1,0 +1,7 @@
+{
+    "python.pythonPath": "D:\\Projects\\flask-chatbot\\env\\Scripts\\python.exe",
+    "terminal.integrated.shellArgs.windows": [
+        "-ExecutionPolicy",
+        "Bypass"
+    ]
+}
