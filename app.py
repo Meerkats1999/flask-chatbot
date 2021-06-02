@@ -48,5 +48,5 @@ def get_bot_response():
 if __name__ == "__main__": 
     tokenizer = BertTokenizer.from_pretrained('bert-large-uncased-whole-word-masking-finetuned-squad')
     model = TFBertForQuestionAnswering.from_pretrained('bert-large-uncased-whole-word-masking-finetuned-squad')   
-    app.run()
+    app.run(host="0.0.0.0",)
 
